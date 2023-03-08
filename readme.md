@@ -1,4 +1,14 @@
+# About
+
+Repository contains simple ASP.NET WebApi containing 2 endpoints. One of the endpoints is going to always return an exception while second one is going to return correct response every time.
+
+Aim of this repository is to measure difference in response times during stresstest for those 2 endpoints.
+
 # Benchmark results
+
+Benchmark was run on the same machine as server handling results which skewed results, however it is still going to show that request that ends with exception is going to take few times longer to process than successfull one.
+
+
 
 ## 500 users - exception flow - 100 iterations
 
